@@ -73,7 +73,8 @@ The Flask app starts and serves live analysis updates via:
 ### CURL Commands:
 
 * `curl http://localhost:5000/results` – Returns the latest product analysis
-* `curl -X POST http://localhost:5000/stop` – Starts/resumes the analyzer loop
+* `curl -X POST http://localhost:5000/start` – Starts/resumes the analyzer loop
+* * `curl -X POST http://localhost:5000/stop` – Stops the analyzer loop
 * `curl -X POST http://localhost:5000/set_interval -H "Content-Type: application/json" -d "{\"interval\":1.0}"` – Sets refresh interval in minutes
 
 ## ⚙️ Customization
