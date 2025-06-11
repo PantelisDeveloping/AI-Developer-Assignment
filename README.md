@@ -2,6 +2,10 @@
 
 This Python project fetches product data from the [Fake Store API](https://fakestoreapi.com/) and performs various analyses, including price statistics, category breakdowns, and rating summaries. It also provides a lightweight Flask web interface for accessing live analysis results at configurable intervals.
 
+## 🚀 Video Showcase
+
+https://github.com/user-attachments/assets/44769b51-805f-4145-8c41-8ead188fc350
+
 ## 🔍 Features
 
 * Fetches live product data from Fake Store API.
